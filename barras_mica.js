@@ -8,7 +8,7 @@ var trace1 = {
 
 var trace2 = {
   x: ["K-pop", "Jazz", "Electronic"],
-  y: [52, 62, 75],
+  y: [35, 20, 15],
   name: 'Otros ENFP',
   marker: {color: '#949494' },
   type: 'bar'
