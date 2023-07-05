@@ -1,4 +1,4 @@
-function RadarChart(id, data, options) {
+function RadarChart_Mica(id, data, options) {
 	var cfg = {
 	 w: 600,				//Width of the circle
 	 h: 600,				//Height of the circle
@@ -308,4 +308,4 @@ function RadarChart(id, data, options) {
 			  color: color
 			};
 			//Call function to draw the Radar chart
-			RadarChart(".radarChart", data, radarChartOptions);
+			RadarChart_Mica(".radarChart_Mica", data, radarChartOptions);
