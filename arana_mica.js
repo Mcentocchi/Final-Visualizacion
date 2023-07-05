@@ -263,3 +263,49 @@ function RadarChart(id, data, options) {
 	}//wrap	
 	
 }//RadarChart
+
+      /* Radar chart design created by Nadieh Bremer - VisualCinnamon.com */
+      
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+      var data = [
+        [
+          { axis: 'Introversion', value: 0.39 },
+          { axis: 'Extraversion', value: 0.61 },
+          { axis: 'Sensing', value: 0.27 },
+          { axis: 'Intuition', value: 0.73 },
+          { axis: 'Thinking', value: 0.18 },
+          { axis: 'Feeling', value: 0.82 },
+          { axis: 'Judging', value: 0.40 },
+          { axis: 'Perceiving', value: 0.60 }
+        ]
+      ];
+      
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var color = d3.scale.ordinal()
+				.range(["#EE9C9B"]); //,"#EDC951"
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 0.5,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: color
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".radarChart", data, radarChartOptions);
