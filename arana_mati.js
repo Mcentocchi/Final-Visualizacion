@@ -1,4 +1,4 @@
-function RadarChart_Mica(id, data, options) {
+function RadarChart_Mati(id, data, options) {
 	var cfg = {
 	 w: 600,				//Width of the circle
 	 h: 600,				//Height of the circle
@@ -271,7 +271,7 @@ function RadarChart_Mica(id, data, options) {
 			////////////////////////////////////////////////////////////// 
 
 			var margin = {top: 100, right: 100, bottom: 100, left: 100},
-				width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+				width = Math.min(400, window.innerWidth - 10) - margin.left - margin.right,
 				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
 					
 			////////////////////////////////////////////////////////////// 
@@ -308,4 +308,4 @@ function RadarChart_Mica(id, data, options) {
 			  color: color
 			};
 			//Call function to draw the Radar chart
-			RadarChart_Mica(".radarChart_Mica", data, radarChartOptions);
+			RadarChart_Mati(".radarChart_Mati", data, radarChartOptions);
