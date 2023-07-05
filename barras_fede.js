@@ -8,7 +8,7 @@ var trace1 = {
 
 var trace2 = {
   x: ["Rock", "Punk", "Metal"],
-  y: [82, 51, 48],
+  y: [30, 5, 20],
   name: 'Otros INTP',
   marker: {color: '#949494' },
   type: 'bar'
