@@ -2105,21 +2105,25 @@ html {
   .section {
     background-color: #e1e1e1;
   }
-   #chart{
+
+	#chart{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .section.verde {
     color: #000;
     background-color: #c8c4ec;
     padding: 45px 75px 0;
   }
-  #chartdance{
+
+	#chartdance{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .section.roja {
     background-color: #ecadac;
     padding-top: 8px;
