@@ -2404,7 +2404,8 @@ html {
   
   .paragraph-3 {
     font-family: Coolvetica Rg, sans-serif;
-    font-size: 17px;
+    font-size: 16px;
+		width:17px;
   }
   
   .quick-stack-6 {
