@@ -1,0 +1,31 @@
+user,uri,artist,name,danceability,energy,key,tempo,duration_ms,popularity
+Mica,4BH9zDv1Ys6kw0j3lU1hTx,Shawn Mendes,Particular Taste,0.968,0.252,9,70.968,175573,55
+Mica,7xT0GApaXGNVMUdRx2taZv,Daya,Hide Away,0.884,0.526,11,72.997,192381,0
+Mica,0naPdIQ2rxzVGM0rh7jkbi,2nd Moon,JinJu's s devotion,0.797,0.471,6,80.001,159490,11
+Mica,40UxxCzNNEcW2q5Rjs9tMo,Elenco de Soy Luna,"Fush, ¡Te Vas!",0.766,0.593,10,67.998,189480,0
+Mica,3PJl6n0NRKBbbEOJdFD5AK,The Next Step,Hotel (feat. Jena Gogo & Sonia Sturino),0.762,0.411,2,149.985,141634,0
+Mica,4PCVVIrUDldF5r7RXtOB5W,Rombai,Curiosidad,0.658,0.548,10,113.973,160784,53
+Mica,0UwQTbq7ZtBJ7v530mpaxP,BTS,Stay Gold,0.724,0.431,1,129.019,243733,59
+Mica,4lqvGmSAr0vDlqud81csJK,Fifth Harmony,Don't Wanna Dance Alone - Acoustic,0.634,0.346,1,59.407,217680,25
+Mica,1V5SnN2nJb2Yv0gKpXToMT,DAY6,Stop The Rain,0.484,0.332,6,122.027,280373,33
+Mica,7xPrFtLIGhCI7afY9WkZtb,Justin Hurwitz,"Chicken On A Stick - From ""La La Land"" Score",0.453,0.13,1,101.668,99907,0
+Mati,41wtwzCZkXwpnakmwJ239F,Bad Bunny,,0.9,0.803,2,179.928,170972,81
+Mati,5eGEc27nnhtmcOh6RC890a,Eminem,,0.897,0.659,11,146.991,264400,71
+Mati,5kVZxyMY1gfdCLiChsfjn1,Bad Bunny,,0.872,0.788,0,172.004,230704,79
+Mati,2Z4VK9otSeq3MxWcEgptUa,Duki,,0.851,0.857,11,160.05,178295,0
+Mati,04d4GpLedinwpfctvgOIhY,Quevedo,,0.827,0.741,11,158.028,213647,71
+Mati,69Va1kxcuI2i7rm3hmYLBL,Sandor,,0.813,0.843,8,175.009,184800,52
+Mati,2cIDetbjLPkhYf4r7z86WH,Dread Mar I,,0.797,0.61,9,120.963,245056,79
+Mati,4Qup5wrYCm9I4dJHxmoRJY,J Balvin,,0.78,0.709,3,97.964,220853,63
+Mati,59WN2psjkt1tyaxjspN8fp,Rage Against The Machine,,0.466,0.893,7,98.785,313573,82
+Mati,22TyikLrwsaXhsL31mewls,Eladio Carrion,,0.382,0.718,2,183.061,161311,68
+Fede,2LsbizbOeNa4x6qsi2jAMb,Jarabe De Palo,,0.871,0.681,7,153.063,261200,78
+Fede,3hJLKtTpgct9Y9wKww0BiR,The Rolling Stones,,0.795,0.71,9,149.689,288667,73
+Fede,4lK6lXhFBHIQQyF9Kdck4d,Intoxicados,,0.451,0.618,8,107.983,198385,51
+Fede,4Qmqux7KiBuz31IcJzHt05,Babasónicos,,0.513,0.768,8,122.032,250761,55
+Fede,7F3uo3304R2CTvOseU3H7u,Imagine Dragons,,0.473,0.667,1,134.938,201240,0
+Fede,1crk0MXXyFQ1zVow6YTJOo,Vicentico,,0.647,0.732,0,158.046,239040,65
+Fede,04aAxqtGp5pv12UXAg4pkq,Fall Out Boy,,0.393,0.858,4,176.042,228360,82
+Fede,22TyikLrwsaXhsL31mewls,Eladio Carrion,,0.382,0.718,2,183.061,161311,68
+Fede,5YXvG4PL4Wisyx2ScUxVFF,Guns N' Roses,,0.274,0.995,10,100.656,182133,51
+Fede,4jwV8xaRDADxcSMXBJB7pL,Sergio Valentino,,0.153,0.563,8,91.195,112736,2
