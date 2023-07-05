@@ -44,7 +44,7 @@ var trace1 = {
     bargroupgap: 0.1
   };
   
-  Plotly.newPlot('myDiv', data, layout);
+  Plotly.newPlot('graficomati', data, layout);
   
 // #fc8d59
 // #d73027
