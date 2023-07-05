@@ -3,11 +3,14 @@
     data-wf-site="64a1e8627b774d01d1159416">
 <head>
     <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
     <title>SymphonyOfSelf</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
     <link
         href="./styles.css"
+
         rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
@@ -248,13 +251,13 @@
         <div class="div-block">
             <p class="paragraph-2 rojo">La investigación revela que las personas extrovertidas se sienten más atraídas
                 por la música con alta danzabilidad, ya que les brinda una fuente de energía y la disfrutan
-                especialmente en compañía de amigos. Pudimos comprobar esta correlacion con nuestros datos</p>
-            <div class="graficodanzabilidad"></div>
+                especialmente en compañsía de amigos. Pudimos comprobar esta correlacion con nuestros datos</p>
+            <div id="chartdance"></div>
             <h1 class="heading">Analistas energizados</h1>
             <p class="paragraph-2 rojo">La investigación revela que las personas extrovertidas se sienten más atraídas
                 por la música con alta danzabilidad, ya que les brinda una fuente de energía y la disfrutan
                 especialmente en compañía de amigos. Pudimos comprobar esta correlacion con nuestros datos</p>
-            <div class="graficoenergia"></div><img
+            <div id="chart" class="graficoenergia" ></div><img
                 src="https://uploads-ssl.webflow.com/64a1e8627b774d01d1159416/64a501ba3e461427daaa6c98_layered-waves-haikei%20(7).svg"
                 loading="lazy" alt="" />
         </div>
@@ -297,7 +300,12 @@
         type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
     <script src="./script.js"
+    
         type="text/javascript"></script>
+    <script src="./Chart_danceability.js"></script>
+    <script src="./Chart_energy.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </body>
 
 </html>

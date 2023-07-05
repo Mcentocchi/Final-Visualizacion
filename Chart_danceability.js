@@ -39,5 +39,5 @@ d3.dsv(',', 'Features_conjuntas.csv', d3.autoType).then(data => {
     }
   });
 
-  d3.select('#chart').append(() => chart);
+  d3.select('#chartdance').append(() => chart);
 });
