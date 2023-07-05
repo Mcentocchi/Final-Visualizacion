@@ -13,9 +13,9 @@ d3.dsv(',', 'Features_conjuntas.csv', d3.autoType).then(data => {
 
   // Definir un objeto que mapea cada usuario a un color específico
   const userColors = {
-    Mica: "#EE9C9B",
+    Mica: "#EB7F7D",
     Mati: "#6BBEDE",
-    Fede: "FYD179"
+    Fede: "#F4D179"
   };
 
   const chart = Plot.plot({
@@ -38,6 +38,10 @@ d3.dsv(',', 'Features_conjuntas.csv', d3.autoType).then(data => {
     x: {
       legend: false,
       ticks: 5
+    },
+    style: {
+      backgroundColor: "transparent", // Set the background color to transparent
+      
     }
   });
 
