@@ -10,7 +10,7 @@ var trace1 = {
     x: ["Rock", "Alternative Rock", "Classical"],
     y: [84, 88, 76],
     name: 'Otros ENTP',
-    marker: {color: '#cccccc' },
+    marker: {color: '#949494' },
     type: 'bar'
   };
   
