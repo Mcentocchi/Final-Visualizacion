@@ -15,7 +15,7 @@ var svg = d3.select("#minigraficofede")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 // Create dummy data
-var data = {"pop: 47%": 47.04563037411817, "argentine rock: 32%":31.89539787660546, "folklore: 21%":21.058971749276373};
+var data = {"pop: 47%": 47.04563037411817, "ARG rock: 32%":31.89539787660546, "folklore: 21%":21.058971749276373};
 
 // set the color scale
 var color = d3.scaleOrdinal()
