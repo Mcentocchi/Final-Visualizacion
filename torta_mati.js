@@ -15,7 +15,7 @@ var svg = d3.select("#minigraficomati")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 // Create dummy data
-var data = {"rock: 43%": 42.614562816886975, "alternative rock: 33%":33.089538231462945, "grunge: 24%":24.295898951650083};
+var data = {"rock: 43%": 42.614562816886975, "alt rock: 33%":33.089538231462945, "grunge: 24%":24.295898951650083};
 
 // set the color scale
 var color = d3.scaleOrdinal()
