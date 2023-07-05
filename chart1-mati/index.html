@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/ >
-		<title>MBTI Radar Chart - Fede</title>
+		<title>MBTI Radar Chart - Mati</title>
 
 		<!-- Google fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -37,7 +37,7 @@
 
 		<div class="radarChart"></div>
 
-		<script src="script.js"></script>	
+		<script src="arana_mati.js"></script>	
 		<script>
       
       /* Radar chart design created by Nadieh Bremer - VisualCinnamon.com */
@@ -56,14 +56,14 @@
 
       var data = [
         [
-          { axis: 'Introversion', value: 0.52 },
-          { axis: 'Extraversion', value: 0.48 },
-          { axis: 'Sensing', value: 0.32 },
-          { axis: 'Intuition', value: 0.68 },
-          { axis: 'Thinking', value: 0.71 },
-          { axis: 'Feeling', value: 0.29 },
-          { axis: 'Judging', value: 0.22 },
-          { axis: 'Perceiving', value: 0.78 }
+          { axis: 'Introversion', value: 0.31 },
+          { axis: 'Extraversion', value: 0.69 },
+          { axis: 'Sensing', value: 0.22 },
+          { axis: 'Intuition', value: 0.78 },
+          { axis: 'Thinking', value: 0.68 },
+          { axis: 'Feeling', value: 0.32 },
+          { axis: 'Judging', value: 0.32 },
+          { axis: 'Perceiving', value: 0.68 }
         ]
       ];
       
@@ -72,7 +72,7 @@
 			////////////////////////////////////////////////////////////// 
 
 			var color = d3.scale.ordinal()
-				.range(["#EDC951","#CC333F","#00A0B0"]);
+				.range(["#00A0B0"]); //,"#EDC951", "#CC333F",
 				
 			var radarChartOptions = {
 			  w: width,
